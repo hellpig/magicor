@@ -1,6 +1,6 @@
 # Magicor! — The Cool Penguin Saves the World
 
-A Python 3 and Pygame 2 port of **Magicor**, the puzzle-platform game originally created by Peter Gebauer.
+A Python 3 and Pygame 2 port of **Magicor**, the puzzle-platform game originally created by Peter Gebauer. The old version, Magicor 1.1, stopped working due to being incompatible with Pygame 2. I had ChatGPT make this port in 2026.
 
 Magicor is similar in spirit to *Solomon's Key*, but with its own mechanics. Push ice blocks into fires, create and destroy ice with magic, navigate tubes and hazards, and extinguish every fire to complete each level.
 
@@ -18,8 +18,7 @@ Changes include:
 - improved resource-path handling;
 - updated audio initialization;
 - a Windows launcher and automated smoke test.
-
-The included level editor has **not** been fully ported because it depends on the obsolete PyGTK 2 stack. The game itself is the supported part of this port.
+- the level editor has **not** been ported because it depends on the obsolete PyGTK 2 stack
 
 ## Installation
 
@@ -63,7 +62,7 @@ Enemies, traps, lava, fire, and falling out of a level kill the player.
 
 ## Walkthroughs
 
-A complete gameplay walkthrough playlist is available on YouTube:
+I made a complete gameplay walkthrough playlist on YouTube:
 
 [Magicor walkthrough playlist](https://www.youtube.com/playlist?list=PLZr9Wbtug46at5jhAICo6ctHJzpMeWXmH)
 
