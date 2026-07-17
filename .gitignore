@@ -1,0 +1,64 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.test-user/
+
+# Local Magicor settings and saved progress
+/magicor.conf
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.spec
+
+# Installer and packaging caches
+pip-wheel-metadata/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and log files
+*.log
+*.tmp
+*.temp
+
+# Local archives and backups
+*.bak
+*.orig
+*.rej
+
+# PyInstaller runtime leftovers
+*.manifest
+
+# Optional local copies of release archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
