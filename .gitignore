@@ -16,7 +16,10 @@ ENV/
 htmlcov/
 .tox/
 .nox/
-.test-user/
+
+# Smoke-test output
+/.test-user/
+/.editor-test-user/
 
 # Local Magicor settings and saved progress
 /magicor.conf

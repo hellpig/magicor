@@ -1,3 +1,3 @@
 @echo off
 cd /d "%~dp0"
-start "" pythonw Magicor.py
+start "" pyw -3 Magicor.py
