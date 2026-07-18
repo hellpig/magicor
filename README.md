@@ -39,11 +39,13 @@ Unsupported ice blocks fall. Falling blocks can also extinguish fires. The pengu
 
 Enemies, traps, lava, fire, and falling out of a level kill the player.
 
-## Walkthroughs
+## Walkthrough
 
 I made a complete walkthrough playlist on YouTube:
 
 [Magicor walkthrough playlist](https://www.youtube.com/playlist?list=PLZr9Wbtug46at5jhAICo6ctHJzpMeWXmH)
+
+I love this game because the levels are sometimes much harder than they look, even when watching the solution. Some levels, especially several of the Snow levels, are beautiful in how disgustingly hard they are.
 
 ## Original project
 
@@ -79,13 +81,13 @@ python Magicor-LevelEditor.py data/levels/forest/forest-01.lvl
 
 The editor uses Pygame for its main window, palette, level display, and editing controls. Tkinter is used only for native open/save/resource file chooser dialogs. Tkinter is included with ordinary Python installations on Windows and the official macOS installer, and is available on most Unix-like systems, although some Linux distributions package it separately. If Tkinter is unavailable, those chooser operations report that they could not open.
 
-The editor uses `data/brushes` and the existing `data/levels/*/brushes` files to construct its palette. The old `data/editor/magicor-editor.glade*` files are not used, so they were deleted.
+The editor uses `data/brushes` and the existing `data/levels/*/brushes` files to construct its palette. The old `data/editor/magicor-editor.glade*` files are not used, so they were removed.
 
 ### Editing
 
 - Select a brush in the left palette.
 - Left-click or drag on the level to paint.
-- Click a sprite to select it, then click elsewhere to move it.
+- Select the same type of sprite and drag an existing sprite to move it.
 - Holding **Shift** while dragging also moves an existing sprite.
 - Right-click a sprite to edit its properties in the right panel.
 - The erase brush removes the tile and any sprites overlapping that cell.
@@ -113,7 +115,7 @@ The editor differs from the original in a few practical ways:
 - The main window, palette, settings, and sprite options are drawn in one Pygame window instead of separate GTK dialogs.
 - Window-position preferences and the obsolete `magicor-editor.conf` are not used.
 - Undo is functional for ordinary editing operations. The original source had an undo stack and menu item, but its GTK frontend did not contain an `on_undo` handler and did not record normal drawing edits.
-- Description and hint fields are exposed because the existing level format already supports them.
+- Description and hint fields are exposed because the existing level format already supports them. The hint field does not currently affect gameplay at all.
 
 ## Installation
 
